@@ -63,7 +63,7 @@ Things you may want to cover:
 |date|datetime||
 |place|string||
 |client|string||
-|limit|string||
+|lim|string||
 |body|string||
 |detail|text||
 ### Association
