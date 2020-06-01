@@ -59,7 +59,7 @@ Things you may want to cover:
 ## planテーブル
 |Column|Type|Option|
 |------|----|------|
-|name|string|null: false
+|name|string|null: false|
 |date|datetime||
 |place|string||
 |client|string||
@@ -79,8 +79,11 @@ Things you may want to cover:
 - belong_to :user
 - belong_to :group
 
-##user-plansテーブル
+##　user-plansテーブル
 |Column|Type|Option|
 |------|----|------|
 |user|references|null: false, foreign_key: true|
 |plan|references|null: false, foreign_key: true|
+### Association
+- belong_to :user
+- belong_to :plan
