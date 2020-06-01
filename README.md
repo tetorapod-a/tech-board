@@ -22,7 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 
-# tech-board DB設計
+# tech-board DaB設計
 ## usersテーブル 
 |Column|Type|Option|
 |------|----|------|
