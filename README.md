@@ -79,7 +79,7 @@ Things you may want to cover:
 - belong_to :user
 - belong_to :group
 
-##　user-plansテーブル
+## user-plansテーブル
 |Column|Type|Option|
 |------|----|------|
 |user|references|null: false, foreign_key: true|
