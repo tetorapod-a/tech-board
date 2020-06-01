@@ -63,9 +63,9 @@ Things you may want to cover:
 |date|datetime||
 |place|string||
 |client|string||
-|lim|string||
 |body|string||
 |detail|text||
+|limit|string||
 ### Association
 - belong_to :group
 - has_many :user-plans
